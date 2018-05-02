@@ -1,3 +1,3 @@
 module.exports.index_get = (req, res, next) => {
-  return res.json();
+  return res.send("Hello World!");
 }
